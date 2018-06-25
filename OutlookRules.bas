@@ -20,7 +20,7 @@ Sub RunRules()
     For Each oStore In oStores
     On Error Resume Next
     ' use the display name as it appears in the navigation pane
-        If oStore.DisplayName = "JGesa@bsp.com.pg" Then
+    If oStore.DisplayName = "[enter mailbox display namer here]" Then
             Set olRules = oStore.GetRules()
         
             For Each myRule In olRules
